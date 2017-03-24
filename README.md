@@ -21,7 +21,7 @@ Find grained control is achieved by various command line options.
 
 #### Recovery
 
-`orchestrator` uses a holistic approach to detect master and intermediate master failures. Based on information gained from the topology itself, it recognizes a variety of failure scenarios.
+`orchestrator` uses a holistic approach to detecting master and intermediate master failures. Based on information gained from the topology itself, it recognizes a variety of failure scenarios.
 
 Configurable, it may choose to perform automated recovery (or allow the user to choose type of manual recovery). Intermediate master recovery achieved internally to `orchestrator`. Master failover supported by pre/post failure hooks.
 
@@ -43,7 +43,7 @@ recovery itself.
 - Auditing
 - Supports Pseudo-GTID
 - Datacenter/physical location awareness
-- Maintenenace/downtime server states
+- Maintenance/downtime server states
 - MySQL-Pool association
 - Run as a service; orchestrator multi-service HA
 - HTTP security/authentication methods
